@@ -31,7 +31,7 @@ export function HomeScreen() {
     <TouchableWithoutFeedback onPress={handleScaleTextAndChangeColor}>
       <View style={[styles.container, { backgroundColor }]}>
         <Animated.Text style={[styles.text, animatedTextStyle]}>
-          Hello there
+          Olá mundo
         </Animated.Text>
       </View>
     </TouchableWithoutFeedback>

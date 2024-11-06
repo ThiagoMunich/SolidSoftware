@@ -18,6 +18,8 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## What's implemented 🔍
 - [x] Tap to change background color
+- [x] Animated re-scale of centered text
+- [x] Automation on Github Actions to update branch on Expo Go
 
 When you're ready, run:
 

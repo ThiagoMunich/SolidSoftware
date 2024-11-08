@@ -1,6 +1,10 @@
 import { StyleSheet, View, TouchableWithoutFeedback } from "react-native"
 
-import Animated, { useAnimatedStyle, useSharedValue, withTiming } from "react-native-reanimated"
+import Animated, {
+  useAnimatedStyle,
+  useSharedValue,
+  withTiming,
+} from "react-native-reanimated"
 
 import { useRandomColor } from "@/hooks/useRandomColor"
 
@@ -26,7 +30,9 @@ export function HomeScreen() {
   return (
     <TouchableWithoutFeedback onPress={handleScaleTextAndChangeColor}>
       <View style={[styles.container, { backgroundColor }]}>
-        <Animated.Text style={[styles.text, animatedTextStyle]}>Hello there!</Animated.Text>
+        <Animated.Text style={[styles.text, animatedTextStyle]}>
+          Hello there
+        </Animated.Text>
       </View>
     </TouchableWithoutFeedback>
   )
